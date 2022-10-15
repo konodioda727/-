@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box1 {
+            width: 800px;
+            height: 80px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .box2 {
+            width: 800px;
+            height: 80px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .red {
+            width: 200px;
+            height: 80px;
+            background-color: red;
+        }
+        .green {
+            width: 200px;
+            height: 80px;
+            background-color: green;
+        }
+        .yellow {
+            flex: 1;
+            font-size: larger;
+            text-align: center;
+            line-height: 80px;
+            background-color: yellow;
+        }
+        .gray {
+            width: 200px;
+            height: 80px;
+            font-size: larger;
+            text-align: center;
+            line-height: 80px;
+            background-color: gray;
+        }
+        .blue {
+            flex: 1;
+            background-color: blue;
+        }
+        .brown {
+            flex: 1;
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <div class="red"></div>
+        <div class="yellow">中间自适应</div>
+        <div class="green"></div>
+    </div>
+    <div class="box2">
+        <div class="blue"></div>
+        <div class="gray">两边自适应</div>
+        <div class="brown"></div>
+    </div>
+</body>
+</html>
